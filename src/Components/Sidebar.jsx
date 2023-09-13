@@ -23,7 +23,7 @@ export const Sidebar = () => {
         <div className="sidebar_wrapper navlinks_wrapper">
             {links.map((link, index) => (
                 <NavLink
-                    className=""
+                    className="navbar_links"
                     style={styles}
                     to={`/components${link.path}`}
                     key={index}

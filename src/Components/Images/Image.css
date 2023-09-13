@@ -1,0 +1,38 @@
+.user_img {
+    column-gap: 1rem;
+    margin: 1rem;
+}
+
+.img_rounded {
+    border-radius: 50%;
+    width: 60%;
+}
+
+.img_responsive {
+    height: auto;
+    width: 60%;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .img_responsive,
+    .user_img {
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+
+    .img_responsive,
+    .user_img {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    .img_responsive,
+    .user_img {
+        width: 50%;
+    }
+}
