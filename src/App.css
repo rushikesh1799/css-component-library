@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header_wrapper {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.links_wrapper {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.links {
+    text-decoration: none;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    height: calc(100vh - 100px);
+}
+
+.home_heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.doc_btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: #74ee15;
+}
+
+.components_heading {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.all_components {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.component_div {
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    background-color:
+        #f2f1f2;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.component_div:hover {
+    background-color:
+        #504f5022;
+}
+
+main {
+    display: flex;
+    gap: 10px;
+}
+
+.how_to_use {
+    margin-top: 20px;
+}
+
+.component_iframe {
+    width: 831px;
+    height: 318px;
+    border: 0;
+    transform: scale(1);
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.avatar_component_iframe {
+    width: 950px;
+    height: 318px;
+    border: 0;
+    transform: scale(1);
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.sidebar_wrapper {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+
+    left: 0;
+    top: 0;
+    padding: 100px 0px;
+    background-color: rgb(245, 245, 245);
+    font-size: 16px;
+    width: 125px;
+}
+
+.navlinks_wrapper {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* alert documentation css */
+
+.component_content {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    width: 80%;
+}
+
+.component_sample_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    margin: 0 auto;
+}
+
+/* alert documentation css */
+
+.avatar_wrapper {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
