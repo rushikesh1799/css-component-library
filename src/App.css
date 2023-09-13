@@ -102,6 +102,16 @@ main {
     margin-bottom: 20px;
 }
 
+.Headings_component_iframe {
+    width: 831px;
+    height: 318px;
+    border: 0;
+    transform: scale(1);
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
 .sidebar_wrapper {
     display: flex;
     justify-content: start;
@@ -144,5 +154,13 @@ main {
 .avatar_wrapper {
     display: flex;
     align-items: center;
+    gap: 1rem;
+}
+
+/* Headings documentation css */
+
+.headings_wrapper {
+    display: flex;
+    flex-direction: column;
     gap: 1rem;
 }
