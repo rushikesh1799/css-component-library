@@ -1,0 +1,50 @@
+.rb_btn {
+    padding: 10px 20px;
+    cursor: pointer;
+    background: #51c6e4;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+}
+
+.rb_primary_btn {
+    padding: 10px 20px;
+    background-color: #5c9be4;
+}
+
+.rb_secondary_btn {
+    padding: 10px 20px;
+    background-color: #2753e4;
+}
+
+.component_header {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.rb_btn>a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.rb_btn>a:hover {
+    text-decoration: none;
+    color: #000000;
+    text-decoration: underline;
+}
+
+.fa-shopping-cart {
+    background: #cdb132;
+}
+
+.fa-thumbs-up {
+    background: #008000;
+}
+
+.fa-share {
+    background-color: #89d5ee;
+}
+
+.fa-bell {
+    background-color: #eb2d2d;
+}

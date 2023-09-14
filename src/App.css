@@ -117,6 +117,15 @@ main {
     margin-bottom: 20px;
 }
 
+.Button_component_iframe {
+    width: 851px;
+    height: 318px;
+    border: 0;
+    transform: scale(1);
+    overflow: hidden;
+    margin-top: 20px;
+}
+
 .sidebar_wrapper {
     display: flex;
     justify-content: start;

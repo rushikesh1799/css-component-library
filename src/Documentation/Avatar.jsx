@@ -10,7 +10,7 @@ const Avatar = () => {
                 <h2 className="component_header">Avatar Component</h2>
                 <p className="component_content">
                     Avatars are used to show a thumbnail representation of an
-                    individual or business in the interface
+                    individual or business in the interface.
                 </p>
                 <div className="avatar_wrapper">
                     <AvatarBox
