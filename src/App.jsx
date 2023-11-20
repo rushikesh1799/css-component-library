@@ -1,7 +1,5 @@
-import { useState } from "react";
 import "./App.css";
 import { Route, Routes } from "react-router";
-import { NavLink } from "react-router-dom";
 import Home from "./Pages/Home";
 import Components from "./Pages/Components";
 import Header from "./Components/Header";
