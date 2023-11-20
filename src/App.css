@@ -11,6 +11,10 @@
     justify-content: space-between
 }
 
+.badgebox-wrapper {
+    margin-bottom: 1rem;
+}
+
 .links_wrapper {
     display: flex;
     gap: 1rem;
