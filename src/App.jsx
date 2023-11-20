@@ -18,6 +18,7 @@ function App() {
     return (
         <>
             <Header />
+            <hr />
             <Routes>
                 <Route path="/" element={<Home />}></Route>
                 <Route path="/components" element={<Components />}></Route>

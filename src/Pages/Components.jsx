@@ -5,7 +5,7 @@ const Components = () => {
     const navigate = useNavigate();
 
     return (
-        <div>
+        <div className="components_wrapper">
             <h2 className="components_heading">All components</h2>
             <div className="all_components">
                 <div
